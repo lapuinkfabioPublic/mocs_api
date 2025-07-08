@@ -1,9 +1,3 @@
-📌 API Mock IBGE - Estados Brasileiros
-https://img.shields.io/badge/Python-3.8+-blue?logo=python
-https://img.shields.io/badge/FastAPI-0.68.1-green?logo=fastapi
-https://img.shields.io/badge/License-MIT-yellow
-https://img.shields.io/badge/code%2520style-black-000000.svg
-
 API mock para simular o endpoint /api/ibge/uf/v1/ da BrasilAPI, retornando dados de estados brasileiros com suas regiões.
 
 🚀 Começando
@@ -25,7 +19,7 @@ Configure o ambiente virtual:
 bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# ou venv\Scripts\activate no Windows
+ou venv\Scripts\activate no Windows
 Instale as dependências:
 
 bash
@@ -113,11 +107,3 @@ Commit suas alterações (git commit -m 'Adiciona nova feature')
 Push para a branch (git push origin feature/nova-feature)
 
 Abra um Pull Request
-
-📄 Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
-
-✉️ Contato
-Seu Nome
-📧 seu-email@example.com
-🔗 https://github.com/seu-usuario
