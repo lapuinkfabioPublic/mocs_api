@@ -1,12 +1,12 @@
-
-API Mock IBGE Estados Brasileiros
-
-https://img.shields.io/badge/Python-3.8+-blue.svg
-https://img.shields.io/badge/FastAPI-0.68.1-green.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
+📌 API Mock IBGE - Estados Brasileiros
+https://img.shields.io/badge/Python-3.8+-blue?logo=python
+https://img.shields.io/badge/FastAPI-0.68.1-green?logo=fastapi
+https://img.shields.io/badge/License-MIT-yellow
+https://img.shields.io/badge/code%2520style-black-000000.svg
 
 API mock para simular o endpoint /api/ibge/uf/v1/ da BrasilAPI, retornando dados de estados brasileiros com suas regiões.
 
+🚀 Começando
 📋 Pré-requisitos
 Python 3.8+
 
@@ -14,13 +14,13 @@ pip
 
 Virtualenv (recomendado)
 
-🚀 Instalação
+🔧 Instalação
 Clone o repositório:
 
 bash
 git clone https://github.com/seu-usuario/api-mock-ibge.git
 cd api-mock-ibge
-Crie e ative um ambiente virtual:
+Configure o ambiente virtual:
 
 bash
 python -m venv venv
@@ -30,20 +30,21 @@ Instale as dependências:
 
 bash
 pip install -r requirements.txt
-🏃 Executando a API
-Modo desenvolvimento (com reload automático):
+🏃‍♂️ Execução
+Modo Desenvolvimento (com reload automático):
 bash
 uvicorn main:app --reload
-Modo produção:
+Modo Produção:
 bash
 python main.py
 A API estará disponível em: http://localhost:8000
 
-📚 Endpoints
+📚 Documentação da API
+Endpoints
 GET /api/ibge/uf/v1/
-Retorna a lista de estados brasileiros com suas respectivas regiões.
+Retorna a lista completa de estados brasileiros com suas respectivas regiões.
 
-Exemplo de resposta:
+Exemplo de Resposta:
 
 json
 [
@@ -69,49 +70,54 @@ json
   }
 ]
 🧪 Testes
-Para executar os testes unitários:
+Execute os testes com:
 
 bash
 pytest -v
-Para executar os testes com cobertura:
+Para ver a cobertura de testes:
 
 bash
 pytest --cov=.
 🌐 Documentação Interativa
-A API inclui documentação automática gerada pelo Swagger UI e ReDoc:
+Acesse nossa documentação automática:
 
 Swagger UI: http://localhost:8000/docs
 
 ReDoc: http://localhost:8000/redoc
 
 ⚙️ Configuração
-As configurações podem ser alteradas através do arquivo .env:
+Configure sua aplicação através do arquivo .env:
 
 ini
 DEBUG=true
 PORT=8000
 ALLOWED_ORIGINS=http://localhost:4200
-🛠 Tecnologias Utilizadas
-FastAPI - Framework para construção da API
+🛠 Stack Tecnológica
+FastAPI - Framework web moderno
 
-Uvicorn - Servidor ASGI
+Uvicorn - Servidor ASGI de alta performance
 
-Pydantic - Validação de dados
+Pydantic - Validação de dados e modelagem
 
-Pytest - Testes unitários
+Pytest - Framework de testes
 
-🤝 Contribuição
-Contribuições são bem-vindas! Siga os passos:
+Python-dotenv - Gerenciamento de variáveis de ambiente
 
+🤝 Como Contribuir
 Faça um fork do projeto
 
-Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
+Crie sua branch (git checkout -b feature/nova-feature)
 
-Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+Commit suas alterações (git commit -m 'Adiciona nova feature')
 
-Push para a branch (git push origin feature/AmazingFeature)
+Push para a branch (git push origin feature/nova-feature)
 
 Abra um Pull Request
 
 📄 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+
+✉️ Contato
+Seu Nome
+📧 seu-email@example.com
+🔗 https://github.com/seu-usuario
